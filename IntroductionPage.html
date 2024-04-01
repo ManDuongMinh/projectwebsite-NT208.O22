@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://kit.fontawesome.com/9d1288f20e.js" crossorigin="anonymous"></script>
+
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="style_notificationPage.css" type="text/css" rel="stylesheet">
+
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg my-navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="icon/DahoHelping.png" alt="Bootstrap" width="150px" height="100px">
+              </a>
+
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" role="button" aria-expanded="false" onclick="location.href='homepage.html'">Trang chủ</a>
+                  </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Giới thiệu </a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Thông báo
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hệ thống</a></li>
+                      <li><a class="dropdown-item" href="#">Cá nhân</a></li>
+                    </ul>
+
+                  </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Tìm kiếm câu hỏi/yêu cầu" aria-label="Search" style="width: 300px; float: left;">
+                  <button class="btn btn-outline-success" type="submit">
+                    <img src="images/search.png" alt="search-icon" style="width: 20px; height: 20px;">
+                  </button>
+                </form>
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle account" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="location.href='login-register.html'">
+                      <img src="images/account.png" alt="acoount" style="width: 40px; height: 40px;">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                        <li><a class="dropdown-item" href="#">Đăng kí</a></li>
+                    </ul>
+
+              </div>
+            </div>
+          </nav>
+      
+         <div class="main">
+
+          <nav class="col-2 col-md-3 col-lg-2 d-md-block bg-light d-sm-none sidebar">
+            <div class="sidebar-sticky">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span> Đại số tuyến tính</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-plus-minus"></i>
+                    <span> Giải tích</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-code"></i>
+                    <span> Nhập môn lập trình</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-computer"></i>
+                    <span> Tổ chức và cấu trúc máy tính</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-book"></i>
+                    <span> Triết học Mac Lenin</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span> Nhập môn mạch số</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-language"></i>
+                    <span> Tiếng Nhật 1</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+<!-- Trang chủ thông báo -->
+<div class="little-main col-8 card noti-content">
+  <div class="card-header"> 
+      <h5>GIỚI THIỆU</h5>
+  </div>
+<div class="card-body">
+  <div class="card-text content">Nội dung phần giới thiệu</div>
+</div>
+</div>
+
+
+
+<div class="right">
+<!-- Thông báo -->
+
+<div class="card mb-3 notification" style="max-width: 18rem;">
+    <div class="card-header">THÔNG BÁO</div>
+    <div class="card-body text-primary">
+      <h5 class="card-title"> <time datetime="2024-03-18">18 Tháng 3, 2024</time>
+      </h5>
+      <p class="card-text">Chào mừng bạn đến với website của chúng tôi.</p>
+    </div>
+  </div>
+
+<!-- Bảng xếp hạng-->
+
+  <table class="table col-2 caption-top ranking-table">
+    <caption style="text-align: center;"> BẢNG XẾP HẠNG </caption>
+    <thead>
+      <tr>
+        <th scope="col">Vị trí</th>
+        <th scope="col">Họ và tên</th>
+        <th scope="col">Trường Đại học</th>
+        <th scope="col">Điểm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Trần Ngọc Minh Nhi</td>
+        <td>
+            <img src="icon/ptnk.png" style="width: 50px;height: 50px;" alt="ptnk">
+        </td>
+        <td>900</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Trịnh Hoài Nhung</td>
+        <td>
+            <img src="icon/ussh.png" style="width: 50px;height: 50px;" alt="ussh">
+        </td>
+        <td>820</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Bùi Thành Chung</td>
+        <td>
+            <img src="icon/uit.svg" style="width: 50px;height: 50px;" alt="uit">
+        </td>
+        <td>770</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Minh Bảo An</td>
+        <td>
+            <img src="icon/khtn.webp" style="width: 50px;height: 50px;" alt="khtn">
+        </td>
+        <td>770</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</div>
+
+</div>
+
+<footer class="text-white text-center text-lg-start footer"> 
+      <div class="container p-4">
+      <div class="row"> <!--Tạo grid-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">DAHOHELPING</h5>
+  
+          <p>
+            DahoHelping là trang web thuộc sở hữu của Đại học Quốc gia Thành phố Hồ Chí Minh. Được ra đời vào năm 2024 bởi ý tưởng của nhóm sinh viên trường Đại học Công nghệ thông tin, DahoHelping đã trở thành
+            địa chỉ tin cậy để các bạn học sinh, sinh viên toàn hệ thống ĐHQG hỏi đáp, chia sẻ, giúp đỡ nhau trong học tập
+            và cuộc sống. Với giao diện đơn giản, dễ sử dụng, chức năng phong phú và độ an toàn cao, DahoHelping không ngừng phát triển để hướng tới việc trở thành trang Forum học sinh, sinh viên tốt nhất trên toàn địa bàn 
+            thành phố Hồ Chí Minh
+          </p>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Liên hệ nhóm sinh viên</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#" class="text-white">Dương Minh Mẫn</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Nguyễn Thành Tài</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Bùi Quốc Cường</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Phan Thị Bích Quyên</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Tài liệu</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2024 Copyright:
+      <a class="text-white" href="https://DahoHelping.com/">DahoHelping.com</a>
+    </div>
+  </footer>
+
+
+          
+
+
+
+
+        <!-- JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+    </body>
+</html>
+
